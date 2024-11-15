@@ -1,0 +1,56 @@
+/* Info Card Styles */
+.display {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.info-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.info-content {
+  max-width: 50%;
+  text-align: left;
+}
+
+.info-content h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-content p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.info-content button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.info-content button:hover {
+  background-color: #45a049;
+}
