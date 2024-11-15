@@ -1,12 +1,9 @@
 <html>
   <head>
-    <link rel="stylesheet" href="/assets/global.css">
-    <link rel="stylesheet" href="/assets/nav.css">
-    <link rel="stylesheet" href="/assets/footer.css">
-    <link rel="stylesheet" href="/assets/hero.css">
-    <link rel="stylesheet" href="/assets/list.css">
-    <link rel="stylesheet" href="/assets/carousel.css">
-    <link rel="stylesheet" href="/assets/cta.css">
+    <link rel="stylesheet" href="assets/global.css">
+    <link rel="stylesheet" href="assets/nav.css">
+    <link rel="stylesheet" href="assets/footer.css">
+    <link rel="stylesheet" href="assets/form.css">
   </head>
   <nav>
     <img src="https://placehold.co/150x50">
@@ -19,16 +16,30 @@
   </nav>
   <body>
     <section class="contact-form">
-      <h1>Book Your Trip Now</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Odio nesciunt reprehenderit molestias consequuntur reiciendis!
-        Non sint maxime voluptatem officiis suscipit nam enim maiores iste veniam temporibus.
-        Aliquam nesciunt dolorum facilis?
-      </p>
-      <a href="book.html">
-        <button>Get Started</button>
-      </a>
+      <h1>Schedule Your Vacation</h1>
+      <form action="" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="date">Preferred Dates:</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </section>
   </body>
   <footer>
