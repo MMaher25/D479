@@ -1,0 +1,36 @@
+/* Call to Action Section Styles */
+.call-to-action {
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.call-to-action h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.call-to-action a {
+  text-decoration: none;
+}
+
+.call-to-action button {
+  background-color: white;
+  color: #4CAF50;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.call-to-action button:hover {
+  background-color: #45a049;
+  color: white;
+}
